@@ -1,0 +1,22 @@
+Steps:
+
+Determine which features aren't helping with the NN model
+Do the same with SVM
+Remove the common features from the dataset. Document this somewhere
+
+Determine potential combinations of features that you can add to the dataset.
+For example multiplying certain features together or subtracting others
+
+Run again and see how this affects the model
+
+Determine what data we can add to the model
+I think it may be useful to add number of given positions on a team
+Perhaps multiply that with a couple of their stats (ie pointguard * height) might correlate to some of their defensive capbilities
+Or we can add data about where they shoot from and multiply against the opposing team's defensive capabilities in that area
+
+
+FAR AHEAD
+
+Can we use RNN's or LSTM's to build a model that predicts a team's next game result?
+Each team would go through a set of loops game by game through the season to predict the value.
+Unsure if this is possible or any better...
